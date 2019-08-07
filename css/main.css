@@ -97,6 +97,50 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.button-active {
+  color: #C3FF00;
+  background-color: #535353; }
+
+nav {
+  background-color: #303030;
+  color: #EFEFEF;
+}  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }  nav .container object {
+           width: 4.5em;
+           padding: 1.2em 0.5em;
+         }  nav .container .menu-button {
+                       text-transform: uppercase;
+                       position: relative;
+                       right: 10px;
+                       letter-spacing: 0.1em;
+                       padding: 1em 1.25em;
+                       -webkit-user-select: none;
+                       -moz-user-select: none;
+                       -ms-user-select: none;
+                       user-select: none;
+                       cursor: pointer;
+                     }
+
+.nav-menu {
+  background-color: #535353;
+  color: #EFEFEF;
+  display: flex;
+  justify-content: center;
+}  .nav-menu .container {
+     padding: 1.5em;
+     display: flex;
+   }  .nav-menu .container ul {
+           list-style: none;
+         }  .nav-menu .container ul li {
+                       padding: 0.25em 2em;
+                     }  .nav-menu .container ul li:first-child {
+                                               text-transform: uppercase;
+                                               color: #C3FF00;
+                                               letter-spacing: 0.05em; }
+
 
 /* ==========================================================================
    Helper classes
